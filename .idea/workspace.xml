@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be530aa-5696-412d-ad9a-a24674526efd" name="Changes" comment="" />
+    <list default="true" id="1be530aa-5696-412d-ad9a-a24674526efd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/java/net/gaston/examplemod/Item/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item/citrine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item/raw_citrine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures/item/citrine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures/item/raw_citrine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Item Textures.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge-Tutorial 1.18/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/java/net/gaston/examplemod/TutorialMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/java/net/gaston/examplemod/TutorialMod.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +70,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -64,19 +84,26 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2545ThUMDRHog7yhq0sNrBwIMyO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Forge-Tutorial 1.18" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gasto\OneDrive\Documents\Codigo\JavaMinecraft\Forge-Tutorial 1.18\src\main\resources\assets\tutorialmod\textures" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.Forge-Tutorial 1.18 [runClient]">
     <configuration name="Forge-Tutorial 1.18 [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -149,5 +176,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
