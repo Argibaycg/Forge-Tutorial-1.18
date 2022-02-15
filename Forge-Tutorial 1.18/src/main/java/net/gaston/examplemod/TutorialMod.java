@@ -1,6 +1,7 @@
 package net.gaston.examplemod;
 
 import net.gaston.examplemod.Item.ModItems;
+import net.gaston.examplemod.block.ModBlocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,7 @@ public class TutorialMod
     public TutorialMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
         eventBus.addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in

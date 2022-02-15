@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be530aa-5696-412d-ad9a-a24674526efd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/java/net/gaston/examplemod/Item/ModItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item/citrine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item/raw_citrine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures/item/citrine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures/item/raw_citrine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item Textures.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="1be530aa-5696-412d-ad9a-a24674526efd" name="Changes" comment="add - two items">
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/java/net/gaston/examplemod/block/ModBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/blockstates/citrine_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/blockstates/citrine_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/blockstates/raw_citrine_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/block/citrine_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/block/citrine_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/block/raw_citrine_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item/citrine_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item/citrine_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item/raw_citrine_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures/block/citrine_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures/block/citrine_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures/block/raw_citrine_block.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge-Tutorial 1.18/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/java/net/gaston/examplemod/TutorialMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/java/net/gaston/examplemod/TutorialMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/textures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Forge-Tutorial 1.18/src/main/resources/assets/tutorialmod/models/item" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -102,7 +106,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gasto\OneDrive\Documents\Codigo\JavaMinecraft\Forge-Tutorial 1.18\src\main\resources\assets\tutorialmod\models\item" />
+      <recent name="C:\Users\gasto\OneDrive\Documents\Codigo\JavaMinecraft\Forge-Tutorial 1.18\src\main\resources\assets\tutorialmod\models\block" />
+      <recent name="C:\Users\gasto\OneDrive\Documents\Codigo\JavaMinecraft\Forge-Tutorial 1.18\src\main\resources\assets\tutorialmod\blockstates" />
       <recent name="C:\Users\gasto\OneDrive\Documents\Codigo\JavaMinecraft\Forge-Tutorial 1.18\src\main\resources\assets\tutorialmod\textures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gasto\OneDrive\Documents\Codigo\JavaMinecraft\Forge-Tutorial 1.18\src\main\resources\assets\tutorialmod\textures\block" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Forge-Tutorial 1.18 [runClient]">
@@ -164,6 +174,14 @@
       <option name="presentableId" value="Default" />
       <updated>1644773532119</updated>
     </task>
+    <task id="LOCAL-00001" summary="add - two items">
+      <created>1644803341763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644803341763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,5 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add - two items" />
+    <option name="LAST_COMMIT_MESSAGE" value="add - two items" />
   </component>
 </project>
