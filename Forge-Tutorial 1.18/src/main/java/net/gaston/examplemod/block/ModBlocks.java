@@ -1,5 +1,6 @@
 package net.gaston.examplemod.block;
 
+import net.gaston.examplemod.Item.ModCreativeModeTab;
 import net.gaston.examplemod.Item.ModItems;
 import net.gaston.examplemod.TutorialMod;
 import net.minecraft.world.item.BlockItem;
@@ -21,15 +22,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(7f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> CITRINE_Ore = registerBlock("citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
